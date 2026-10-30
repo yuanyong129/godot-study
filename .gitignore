@@ -1,0 +1,35 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Exported builds
+/build/
+/export/
+*.exe
+*.dmg
+*.pck
+*.zip
+
+# Imported translations (generated from CSV files)
+*.translation
+
+# C# / Mono specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.tmp
+*~
+
+# Logs
+*.log
